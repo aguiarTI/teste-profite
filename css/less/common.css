@@ -1,0 +1,451 @@
+/** ========================
+============================
+@project    : Profite
+@version    : 1.0
+@author     : Thiago Aguiar - thiago.aguiar86@gmail.com
+@copyright  : 2017
+============================
+begin
+=========================**/
+/**====================
+	@debug
+	====================**/
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
+.gray {
+  background-color: gray;
+}
+.purple {
+  background-color: purple;
+}
+.pink {
+  background-color: pink;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+/** ========================
+	@font-face
+	=========================**/
+@font-face {
+  font-family: 'OpenSansCondensedBold';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../font/opensans/condensed/bold/font.eot);
+  src: url(../font/opensans/condensed/bold/font.eot?#iefix) format("embedded-opentype"), url(../font/opensans/condensed/bold/font.woff) format("woff"), url(../font/opensans/condensed/bold/font.ttf) format("truetype"), url(../font/opensans/condensed/bold/font.svg#OpenSans) format("svg");
+}
+@font-face {
+  font-family: 'OpenSansCondensedLight';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../font/opensans/condensed/light/font.eot);
+  src: url(../font/opensans/condensed/light/font.eot?#iefix) format("embedded-opentype"), url(../font/opensans/condensed/light/font.woff) format("woff"), url(../font/opensans/condensed/light/font.ttf) format("truetype"), url(../font/opensans/condensed/light/font.svg#OpenSans) format("svg");
+}
+@font-face {
+  font-family: 'OpenSansCondensedLightItalic';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../font/opensans/condensed/lightitalic/font.eot);
+  src: url(../font/opensans/condensed/lightitalic/font.eot?#iefix) format("embedded-opentype"), url(../font/opensans/condensed/lightitalic/font.woff) format("woff"), url(../font/opensans/condensed/lightitalic/font.ttf) format("truetype"), url(../font/opensans/condensed/lightitalic/font.svg#OpenSans) format("svg");
+}
+/**====================
+	@font-size
+	====================**/
+/** ========================
+	@pattern-text-color
+	=========================**/
+/** ========================
+end
+=========================**/
+/** ========================
+============================
+@project    : Profite
+@version    : 1.0
+@author     : Thiago Aguiar - thiago.aguiar86@gmail.com
+@copyright  : 2017
+============================
+begin
+=========================**/
+/** ========================
+	@pattern
+	=========================**/
+body {
+  font-family: 'OpenSansCondensedBold';
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+section {
+  position: relative;
+}
+p,
+a,
+em,
+i,
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+video,
+img,
+caption,
+audio,
+ul,
+li,
+ol,
+article,
+table,
+thead,
+tbody,
+th,
+tr,
+td {
+  font-weight: normal;
+  font-size: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  position: relative;
+}
+ul,
+li,
+ol,
+dt,
+dl {
+  list-style: none;
+  list-style-type: none;
+}
+strong,
+b {
+  /*font-family: 'Arial Black';*/
+}
+img {
+  border: 0;
+  display: block;
+}
+figure {
+  position: relative;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+section {
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/** ========================
+end
+=========================**/
+/** ========================
+============================
+@project    : Profite
+@version    : 1.0
+@author     : Thiago Aguiar - thiago.aguiar86@gmail.com
+@copyright  : 2017
+============================
+begin
+=========================**/
+/** ========================
+	@pattern
+	=========================**/
+body {
+  font-family: 'OpenSansCondensedLight';
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+section {
+  position: relative;
+}
+p,
+a,
+em,
+i,
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+video,
+img,
+caption,
+audio,
+ul,
+li,
+ol,
+article,
+table,
+thead,
+tbody,
+th,
+tr,
+td {
+  font-weight: normal;
+  font-size: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  position: relative;
+}
+ul,
+li,
+ol,
+dt,
+dl {
+  list-style: none;
+  list-style-type: none;
+}
+strong,
+b {
+  /*font-family: 'Arial Black';*/
+}
+img {
+  border: 0;
+  display: block;
+}
+figure {
+  position: relative;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+section {
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/** ========================
+end
+=========================**/
+/** ========================
+============================
+@project    : Profite
+@version    : 1.0
+@author     : Thiago Aguiar - thiago.aguiar86@gmail.com
+@copyright  : 2017
+============================
+begin
+=========================**/
+/** ========================
+	@pattern
+	=========================**/
+body {
+  font-family: 'OpenSansCondensedLight';
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+section {
+  position: relative;
+}
+p,
+a,
+em,
+i,
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+video,
+img,
+caption,
+audio,
+ul,
+li,
+ol,
+article,
+table,
+thead,
+tbody,
+th,
+tr,
+td {
+  font-weight: normal;
+  font-size: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  position: relative;
+}
+ul,
+li,
+ol,
+dt,
+dl {
+  list-style: none;
+  list-style-type: none;
+}
+strong,
+b {
+  /*font-family: 'Arial Black';*/
+}
+img {
+  border: 0;
+  display: block;
+}
+figure {
+  position: relative;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+section {
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/** ========================
+end
+=========================**/
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+/*
+The `retina-sprite` class sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+@icon-home-group: 'icon-home' @icon-home @icon-home-2x;
+
+.icon-home {
+  .retina-sprite(@icon-home-group);
+}
+*/
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+/*
+The `.retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in LESS
+
+.retina-sprites(@retina-groups);
+*/
+/** ========================
+end
+=========================**/

@@ -1,0 +1,90 @@
+/** ========================
+============================
+@project    : Profite
+@version    : 1.0
+@author     : Thiago Aguiar - thiago.aguiar86@gmail.com
+@copyright  : 2017
+============================
+begin
+=========================**/
+header {
+	padding: 35px 0;
+	.row {
+		max-width: 1010px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h1 {
+		position: relative;
+		float: left;
+	}
+	.profile {
+		width: 190px;
+		margin-top: 15px;
+		position: relative;
+		float: left;
+		span {
+			display: block;
+			&:first-child {
+				font-size: 1.2em;
+			}
+			&:last-child {
+				font-size: 0.9em;
+			}
+			a {
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	nav {
+		width: 135px;
+		margin-top: 10px;
+		position: relative;
+		float: right;
+		ul {
+			li {
+				margin: 0 5px;
+				display: inline-block;
+				vertical-align: top;
+				img {
+					width: 25px;
+				}
+				&.skype {
+					margin-top: 8px;
+					img, span {
+						display: inline-block;
+						vertical-align: middle;
+					}
+					span {
+						color: #00AFF0;
+					}
+				}
+			}
+		}
+	}
+	form {
+		input[type="submit"] {
+			background: url(../img/lupa.jpg) center center no-repeat;
+			background-size: auto;
+			background-color: @patternColorText;
+			border: 0 none;
+			width: 40px;
+			height: 30px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-moz-border-radius-topright: 10px;
+			-moz-border-radius-bottomright: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			text-indent: -9999px;
+		}
+	}
+}
+/** ========================
+end
+=========================**/
